@@ -21,7 +21,8 @@ This project was initially a challenge for me as I had to use my limited knowled
 #### Screenshot
 
 This is a screenshot of the daily planner as of right now (Dates are all in the past as of 10PM)
-![Planner Initial] (Assets/SchedulerPast)
+
+![Planner Initial] (/Assets/SchedulerPast.PNG)
 
 This is a screenshot of an example of what the planner would look like at a normal time in the working day
-![Colour Example] (Assets/PlannerExample)
+![Colour Example] (/Assets/PlannerExample.PNG)
