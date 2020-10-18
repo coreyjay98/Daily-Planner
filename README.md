@@ -19,12 +19,3 @@ Use the link https://coreyjay98.github.io/Daily-Planner/ to view the Page!
 - Bootstrap
 
 - Google Fonts
-
-#### Screenshot
-
-This is a screenshot of the daily planner as of right now (Dates are all in the past as of 10PM)
-
-![Planner Initial] (Assets/SchedulerPast.PNG)
-
-This is a screenshot of an example of what the planner would look like at a normal time in the working day
-![Colour Example] (Assets/PlannerExample.PNG)
