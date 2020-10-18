@@ -11,6 +11,8 @@
   <title>Work Day Scheduler</title>
 </head>
 
+<!-- Simple Bootstrap Header with currentDay signifying where date will be shown-->
+
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
@@ -18,138 +20,137 @@
     <p id="currentDay" class="lead"></p>
   </header>
 
+  <!-- Form that holds whole planner-->
   <form class="container wholeForm">
-    <div class="row time-block inputForm" action="" data-time="9">
-
+    <div class="row ">
       <div class=" col-sm-2 hour">
         <p>9AM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time1" data-text="1" id="9"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="1" id="9"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="1">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="10">
+
+    <!-- All divs are the same build with different ID's and Data attributes-->
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>10AM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time2" data-text="2" id="10"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="2" id="10"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="2">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="11">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>11AM</p>
       </div>
-
-      <input type='text' class="col-sm-8 textDivs time3" data-text="3" id="11"></input>
+      <!--ID of input represents the number in 24 hour clock-->
+      <input type='text' class="col-sm-8 textDivs " data-text="3" id="11"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="3">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="12">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>12PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time4" data-text="4" id="12"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="4" id="12"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="4">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="13">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>1PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time5" data-text="5" id="13"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="5" id="13"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="5">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="14">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>2PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time6" data-text="6" id="14"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="6" id="14"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="6">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="15">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>3PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time7" data-text="7" id="15"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="7" id="15"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="7">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="16">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>4PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time8" data-text="8" id="16"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="8" id="16"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="8">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
-    <div class="row time-block inputForm" action="" data-time="17">
+    <div class="row time-block ">
 
       <div class=" col-sm-2 hour">
         <p>5PM</p>
       </div>
 
-      <input type='text' class="col-sm-8 textDivs time9" data-text="9" id="17"></input>
+      <input type='text' class="col-sm-8 textDivs " data-text="9" id="17"></input>
 
       <button type='submit' class="col-sm-2 saveBtn" data-btn="9">Save</button>
 
-      <!-- onclick="saveFirst()" -->
+
 
     </div>
     <br>
 
 
-
-
-    <!-- Timeblocks go here -->
   </form>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
